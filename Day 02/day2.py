@@ -8,11 +8,3 @@ first_digit = int(user_input[0])
 second_digit = int(user_input[1])
 
 print(first_digit + second_digit)
-
-
-weight = float(input("Enter your weight in kg: "))
-height = float(input("Enter your height in m: "))
-
-bmi = weight / (height**2)
-
-print("Your BMI is: ",round(bmi,2))

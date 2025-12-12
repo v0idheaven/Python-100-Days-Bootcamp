@@ -1,3 +1,4 @@
+# Tip/Bill Calculator
 print("Welcome to the tip calculator!")
 total_bill = float(input("What was the total bill? \n₹ "))
 tip = int(input("What percentage tip would you like to give?\n"))
@@ -7,3 +8,12 @@ pay1 = total_bill + (total_bill * tip / 100)
 
 pay2 = pay1 / total_person
 print(f'Each person should pay: ₹{round(pay2, 2)}')
+
+
+# BMI CALCULATOR
+weight = float(input("Enter your weight in kg: "))
+height = float(input("Enter your height in m: "))
+
+bmi = weight / (height**2)
+
+print("Your BMI is: ",round(bmi,2))
