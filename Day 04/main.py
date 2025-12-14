@@ -29,3 +29,36 @@ fruits.append("Mango")
 print(fruits)
 fruits.extend(["pineapple","Gauava"])
 print(fruits)
+
+
+# RANDOM METHOD TO PAY THE BILL
+Names_string = input("Give me everybody's names, seprated by a comma. \n")
+Names = Names_string.split(", ")
+random = random.randint(0,len(Names)-1)
+print(f"{Names[random]} is going to buy the meal today!")
+
+
+# NESTED LISTS
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen)
+
+
+#WHERE DO YOU WANT TO PUT THE TREASURE
+row1 = ["🎁","🎁","🎁"]
+row2 = ["🎁","🎁","🎁"]
+row3 = ["🎁","🎁","🎁"]
+
+map = [row1, row2, row3]
+print(f"{row1}\n{row2}\n{row3}")
+position = input("Where do you want to put the treasure? ")
+
+horizontal = int(position[0])
+vertical = int(position[1])
+
+selected_row = map[vertical -1]
+selected_row[horizontal - 1] = "🪙"
+
+print(f"{row1}\n{row2}\n{row3}")
