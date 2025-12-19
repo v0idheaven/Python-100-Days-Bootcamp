@@ -1,8 +1,12 @@
 fruits = ["Apple","Peach","Pear"]
 for fruit in fruits:
     print(fruit)
+    print(fruit[0])
+    print(fruit[1])
+    print(fruit[2])
     print(fruit + " Pie")
 print(fruits)
+
 
 
 # SUM FROM 0 TO 100
