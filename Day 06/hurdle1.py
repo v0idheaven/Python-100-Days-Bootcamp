@@ -7,7 +7,7 @@ Visit this link : https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=world
 #     turn_left()
 #     turn_left()
 
-# def complete():
+# def jump():
 #     move()
 #     turn_left()
 #     move()
@@ -18,4 +18,4 @@ Visit this link : https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=world
 #     turn_left()
     
 # for _ in range(6):
-#     complete()
+#     jump()
