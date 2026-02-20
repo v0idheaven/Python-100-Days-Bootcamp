@@ -47,14 +47,18 @@ print(dirty_dozen)
 
 
 #WHERE DO YOU WANT TO PUT THE TREASURE
+#we have to select 1 place in this matrix
 row1 = ["🎁","🎁","🎁"]
 row2 = ["🎁","🎁","🎁"]
 row3 = ["🎁","🎁","🎁"]
 
+
 map = [row1, row2, row3]
+#PRINT ALL THE ROWS AND COLUMN
 print(f"{row1}\n{row2}\n{row3}")
 position = input("Where do you want to put the treasure? ")
 
+#Mamke it in horizontal and vertical
 horizontal = int(position[0])
 vertical = int(position[1])
 
